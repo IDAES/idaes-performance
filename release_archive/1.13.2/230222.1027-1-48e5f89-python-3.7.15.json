@@ -1,0 +1,30 @@
+[
+  {
+    "time": 1677086975.9321663,
+    "python_implementation": "CPython",
+    "python_version": [
+      3,
+      7,
+      15,
+      "final",
+      0
+    ],
+    "python_build": [
+      "default",
+      "Nov 10 2022 05:19:29"
+    ],
+    "platform": "Linux",
+    "hostname": "lily.srn.sandia.gov",
+    "idaes": {
+      "branch": "",
+      "sha": "48e5f89ae0d45f5638cc658e4ea3d1de1def7c19",
+      "diffs": [
+
+      ],
+      "version": "1.13.2"
+    }
+  },
+  {
+
+  }
+]
