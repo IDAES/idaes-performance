@@ -9,7 +9,7 @@ CONFIG = {
     'menu-bar-urls' : [('Documentation', 'https://idaes-pse.readthedocs.io/en/stable/'),
                        ('GitHub', 'https://github.com/IDAES/idaes-pse')],
     'icon-url' : 'https://raw.githubusercontent.com/IDAES/examples-pse/main/docs/_images/idaes-logo-100x100.png',
-    'hero-image-url' : 'https://raw.githubusercontent.com/IDAES/examples-pse/main/docs/_static/idaes-logo-withtext.png',
+    'hero-image-url' : 'https://raw.githubusercontent.com/IDAES/idaes-performance/main/config/IDAES_logo.png',
     'copyright-statement' : 
         """
               <a href="https://idaes.org" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1" target="_blank">
