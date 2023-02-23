@@ -22,6 +22,6 @@ and is strictly access-controlled.
 - [Pull Request Performance Job](https://pyomo-jenkins.sandia.gov/view/IDAES/job/IDAES_Performance/)
 - [Release Performance Job](https://pyomo-jenkins.sandia.gov/view/IDAES/job/IDAES_Performance_Release/)
 - [Performance Publisher](https://pyomo-jenkins.sandia.gov/view/IDAES/job/IDAES_Performance_Publisher/)
-- [Performance Plots](#)
+- [Performance Plots](https://software.sandia.gov/downloads/pub/idaes/performance/index.html)
 
 
