@@ -5,7 +5,7 @@ computational tools and models to support the design, analysis, optimization,
 scale-up, operation and troubleshooting of innovative, advanced energy systems.
 
 ## Performance Infrastructure Status
-[![Jenkins Status](https://github.com/Pyomo/jenkins-status/blob/main/pyomo_main.svg)](https://pyomo-jenkins.sandia.gov/)
+[![Jenkins Status](https://github.com/Pyomo/jenkins-status/blob/main/idaes_services.svg)](https://pyomo-jenkins.sandia.gov/)
 
 ## Performance Data Archive
 
@@ -23,5 +23,3 @@ and is strictly access-controlled.
 - [Release Performance Job](https://pyomo-jenkins.sandia.gov/view/IDAES/job/IDAES_Performance_Release/)
 - [Performance Publisher](https://pyomo-jenkins.sandia.gov/view/IDAES/job/IDAES_Performance_Publisher/)
 - [Performance Plots](https://software.sandia.gov/downloads/pub/idaes/performance/index.html)
-
-
