@@ -1,0 +1,856 @@
+
+    <!doctype html>
+    <html lang="en">
+      <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="png" href="https://raw.githubusercontent.com/IDAES/examples-pse/main/docs/_images/idaes-logo-100x100.png">
+        <title>IDAES Performance Plots</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      </head>
+      <body>
+      <header>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+            data-mdb-target="#navbarExample01" aria-controls="navbarExample01" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarExample01">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://idaes-pse.readthedocs.io/en/stable/" target="_blank">Documentation</a>
+                  </li>
+                
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/IDAES/idaes-pse" target="_blank">GitHub</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <!-- Navbar -->
+    
+          <!-- Hero -->
+          <div class="p-3 text-center bg-light">
+            <img src="https://raw.githubusercontent.com/IDAES/idaes-performance/main/config/IDAES_logo.png" height="40%" width="40%">
+            <br><br>
+            <h1 class="mb-3">Performance Results</h1>
+          </div>
+          <!-- Hero -->
+        </header>
+        <br>
+        <div class="container-md">
+          <h3><p class="text-center">Welcome to IDAES's performance test results portal!</p></h3>
+          <br>
+          <p class="text-center">Please explore the expandable sections below for different categories of IDAES's current performance. The numbers shown are standard deviations away from the running average (where a positive number is slower than average, negative faster than average).</p>
+          <p class="text-center"><i><b>Note: Alerts are generated based on repeated performance. The table represents only the most recent run of the performance test suite.</b></i></p>
+          <p class="text-center"><i>Last update: Oct-24-2023 13:35</i></p>
+        </div>
+        <div class="container-md">
+    
+            <div class="alert alert-danger" role="aslert">
+                <i class="fa fa-exclamation-circle" aria-hidden="true"></i> Performance Degradation Alert <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                <br>
+                Combination "<a href="idaes_performance_python-3.8_Test_HX1D_Performance_test_performance.html" target="_blank">Python = python-3.8, Problem = Test_HX1D_Performance_test_performance, Measure = build model</a>" is 0.1518s (2.537&sigma;) above the average run time.
+            </div>
+            
+    <div class="accordion" id="performanceAccordion">
+    
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingPython1">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePython1" aria-expanded="false" aria-controls="collapsePython1">
+              Python Version python-3.10
+            </button>
+          </h2>
+          <div id="collapsePython1" class="accordion-collapse collapse" aria-labelledby="headingPython1" data-bs-parent="#performanceAccordion">
+            <div class="accordion-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Problem\Measure</th>
+      
+            <th scope="col">build model</th>
+            
+            <th scope="col">unit consistency</th>
+            
+            <th scope="col">initialize</th>
+            
+            <th scope="col">final solve</th>
+            
+        </tr>
+        </thead>
+        <tbody>
+        
+            <tr>
+            <th scope="row">Test_HC_PR_Performance_test_performance</th>
+            
+                <td>
+                    <a href="idaes_performance_python-3.10_Test_HC_PR_Performance_test_performance.html" target="_blank">0.249&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.10_Test_HC_PR_Performance_test_performance.html" target="_blank">0.252&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.10_Test_HC_PR_Performance_test_performance.html" target="_blank">0.00983&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.10_Test_HC_PR_Performance_test_performance.html" target="_blank">0.207&sigma;</a>
+                    </td>
+                
+            </tr>
+            
+            <tr>
+            <th scope="row">TestCubicTransportPerformance_test_performance</th>
+            
+                <td>
+                    <a href="idaes_performance_python-3.10_TestCubicTransportPerformance_test_performance.html" target="_blank">0.184&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.10_TestCubicTransportPerformance_test_performance.html" target="_blank">0.269&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.10_TestCubicTransportPerformance_test_performance.html" target="_blank">0.0368&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.10_TestCubicTransportPerformance_test_performance.html" target="_blank">0.337&sigma;</a>
+                    </td>
+                
+            </tr>
+            
+            <tr>
+            <th scope="row">Test_HX1D_Performance_test_performance</th>
+            
+                <td>
+                    <a href="idaes_performance_python-3.10_Test_HX1D_Performance_test_performance.html" target="_blank">0.685&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.10_Test_HX1D_Performance_test_performance.html" target="_blank">0.589&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.10_Test_HX1D_Performance_test_performance.html" target="_blank">0.0895&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.10_Test_HX1D_Performance_test_performance.html" target="_blank">0.847&sigma;</a>
+                    </td>
+                
+            </tr>
+            
+            <tr>
+            <th scope="row">Test_MEAColumn_Performance_test_performance</th>
+            
+                <td>
+                    <a href="idaes_performance_python-3.10_Test_MEAColumn_Performance_test_performance.html" target="_blank">0.134&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.10_Test_MEAColumn_Performance_test_performance.html" target="_blank">0.292&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.10_Test_MEAColumn_Performance_test_performance.html" target="_blank">0.076&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.10_Test_MEAColumn_Performance_test_performance.html" target="_blank">0.113&sigma;</a>
+                    </td>
+                
+            </tr>
+            
+            <tr>
+            <th scope="row">Test_TrayColumn_Performance_test_performance</th>
+            
+                <td>
+                    <a href="idaes_performance_python-3.10_Test_TrayColumn_Performance_test_performance.html" target="_blank">0.158&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.10_Test_TrayColumn_Performance_test_performance.html" target="_blank">0.328&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.10_Test_TrayColumn_Performance_test_performance.html" target="_blank">0.321&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.10_Test_TrayColumn_Performance_test_performance.html" target="_blank">0.19&sigma;</a>
+                    </td>
+                
+            </tr>
+            
+            <tr>
+            <th scope="row">Test_FixedBed1D_Performance_test_performance</th>
+            
+                <td>
+                    <a href="idaes_performance_python-3.10_Test_FixedBed1D_Performance_test_performance.html" target="_blank">0.0754&sigma;</a>
+                    </td>
+                
+                <td></td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.10_Test_FixedBed1D_Performance_test_performance.html" target="_blank">0.26&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.10_Test_FixedBed1D_Performance_test_performance.html" target="_blank">0.772&sigma;</a>
+                    </td>
+                
+            </tr>
+            
+              </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+          
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingPython2">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePython2" aria-expanded="false" aria-controls="collapsePython2">
+              Python Version python-3.11
+            </button>
+          </h2>
+          <div id="collapsePython2" class="accordion-collapse collapse" aria-labelledby="headingPython2" data-bs-parent="#performanceAccordion">
+            <div class="accordion-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Problem\Measure</th>
+      
+            <th scope="col">build model</th>
+            
+            <th scope="col">unit consistency</th>
+            
+            <th scope="col">initialize</th>
+            
+            <th scope="col">final solve</th>
+            
+        </tr>
+        </thead>
+        <tbody>
+        
+            <tr>
+            <th scope="row">Test_HC_PR_Performance_test_performance</th>
+            
+                <td>
+                    <a href="idaes_performance_python-3.11_Test_HC_PR_Performance_test_performance.html" target="_blank">0.355&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.11_Test_HC_PR_Performance_test_performance.html" target="_blank">0.0663&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.11_Test_HC_PR_Performance_test_performance.html" target="_blank">0.265&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.11_Test_HC_PR_Performance_test_performance.html" target="_blank">0.792&sigma;</a>
+                    </td>
+                
+            </tr>
+            
+            <tr>
+            <th scope="row">TestCubicTransportPerformance_test_performance</th>
+            
+                <td>
+                    <a href="idaes_performance_python-3.11_TestCubicTransportPerformance_test_performance.html" target="_blank">0.281&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.11_TestCubicTransportPerformance_test_performance.html" target="_blank">0.37&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.11_TestCubicTransportPerformance_test_performance.html" target="_blank">0.172&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.11_TestCubicTransportPerformance_test_performance.html" target="_blank">0.648&sigma;</a>
+                    </td>
+                
+            </tr>
+            
+            <tr>
+            <th scope="row">Test_HX1D_Performance_test_performance</th>
+            
+                <td>
+                    <a href="idaes_performance_python-3.11_Test_HX1D_Performance_test_performance.html" target="_blank">0.937&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.11_Test_HX1D_Performance_test_performance.html" target="_blank">-0.0124&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.11_Test_HX1D_Performance_test_performance.html" target="_blank">0.617&sigma;</a>
+                    </td>
+                
+                <td class="bg-danger">
+                    <a href="idaes_performance_python-3.11_Test_HX1D_Performance_test_performance.html" target="_blank">2.15&sigma;</a>
+                    </td>
+                
+            </tr>
+            
+            <tr>
+            <th scope="row">Test_MEAColumn_Performance_test_performance</th>
+            
+                <td>
+                    <a href="idaes_performance_python-3.11_Test_MEAColumn_Performance_test_performance.html" target="_blank">0.125&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.11_Test_MEAColumn_Performance_test_performance.html" target="_blank">0.0466&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.11_Test_MEAColumn_Performance_test_performance.html" target="_blank">0.251&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.11_Test_MEAColumn_Performance_test_performance.html" target="_blank">0.148&sigma;</a>
+                    </td>
+                
+            </tr>
+            
+            <tr>
+            <th scope="row">Test_TrayColumn_Performance_test_performance</th>
+            
+                <td>
+                    <a href="idaes_performance_python-3.11_Test_TrayColumn_Performance_test_performance.html" target="_blank">0.15&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.11_Test_TrayColumn_Performance_test_performance.html" target="_blank">0.27&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.11_Test_TrayColumn_Performance_test_performance.html" target="_blank">0.398&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.11_Test_TrayColumn_Performance_test_performance.html" target="_blank">0.309&sigma;</a>
+                    </td>
+                
+            </tr>
+            
+            <tr>
+            <th scope="row">Test_FixedBed1D_Performance_test_performance</th>
+            
+                <td>
+                    <a href="idaes_performance_python-3.11_Test_FixedBed1D_Performance_test_performance.html" target="_blank">0.209&sigma;</a>
+                    </td>
+                
+                <td></td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.11_Test_FixedBed1D_Performance_test_performance.html" target="_blank">0.894&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.11_Test_FixedBed1D_Performance_test_performance.html" target="_blank">0.28&sigma;</a>
+                    </td>
+                
+            </tr>
+            
+              </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+          
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingPython3">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePython3" aria-expanded="false" aria-controls="collapsePython3">
+              Python Version python-3.7
+            </button>
+          </h2>
+          <div id="collapsePython3" class="accordion-collapse collapse" aria-labelledby="headingPython3" data-bs-parent="#performanceAccordion">
+            <div class="accordion-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Problem\Measure</th>
+      
+            <th scope="col">build model</th>
+            
+            <th scope="col">unit consistency</th>
+            
+            <th scope="col">initialize</th>
+            
+            <th scope="col">final solve</th>
+            
+        </tr>
+        </thead>
+        <tbody>
+        
+            <tr>
+            <th scope="row">Test_HC_PR_Performance_test_performance</th>
+            
+                <td>
+                    <a href="idaes_performance_python-3.7_Test_HC_PR_Performance_test_performance.html" target="_blank">1.05&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.7_Test_HC_PR_Performance_test_performance.html" target="_blank">1.1&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.7_Test_HC_PR_Performance_test_performance.html" target="_blank">1.44&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.7_Test_HC_PR_Performance_test_performance.html" target="_blank">0.726&sigma;</a>
+                    </td>
+                
+            </tr>
+            
+            <tr>
+            <th scope="row">TestCubicTransportPerformance_test_performance</th>
+            
+                <td>
+                    <a href="idaes_performance_python-3.7_TestCubicTransportPerformance_test_performance.html" target="_blank">1.47&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.7_TestCubicTransportPerformance_test_performance.html" target="_blank">1.05&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.7_TestCubicTransportPerformance_test_performance.html" target="_blank">1.19&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.7_TestCubicTransportPerformance_test_performance.html" target="_blank">0.375&sigma;</a>
+                    </td>
+                
+            </tr>
+            
+            <tr>
+            <th scope="row">Test_HX1D_Performance_test_performance</th>
+            
+                <td class="bg-danger">
+                    <a href="idaes_performance_python-3.7_Test_HX1D_Performance_test_performance.html" target="_blank">2.11&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.7_Test_HX1D_Performance_test_performance.html" target="_blank">1.0&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.7_Test_HX1D_Performance_test_performance.html" target="_blank">0.0712&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.7_Test_HX1D_Performance_test_performance.html" target="_blank">0.113&sigma;</a>
+                    </td>
+                
+            </tr>
+            
+            <tr>
+            <th scope="row">Test_MEAColumn_Performance_test_performance</th>
+            
+                <td>
+                    <a href="idaes_performance_python-3.7_Test_MEAColumn_Performance_test_performance.html" target="_blank">1.17&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.7_Test_MEAColumn_Performance_test_performance.html" target="_blank">0.865&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.7_Test_MEAColumn_Performance_test_performance.html" target="_blank">0.3&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.7_Test_MEAColumn_Performance_test_performance.html" target="_blank">0.431&sigma;</a>
+                    </td>
+                
+            </tr>
+            
+            <tr>
+            <th scope="row">Test_TrayColumn_Performance_test_performance</th>
+            
+                <td>
+                    <a href="idaes_performance_python-3.7_Test_TrayColumn_Performance_test_performance.html" target="_blank">1.38&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.7_Test_TrayColumn_Performance_test_performance.html" target="_blank">1.48&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.7_Test_TrayColumn_Performance_test_performance.html" target="_blank">0.159&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.7_Test_TrayColumn_Performance_test_performance.html" target="_blank">0.547&sigma;</a>
+                    </td>
+                
+            </tr>
+            
+            <tr>
+            <th scope="row">Test_FixedBed1D_Performance_test_performance</th>
+            
+                <td>
+                    <a href="idaes_performance_python-3.7_Test_FixedBed1D_Performance_test_performance.html" target="_blank">1.71&sigma;</a>
+                    </td>
+                
+                <td></td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.7_Test_FixedBed1D_Performance_test_performance.html" target="_blank">0.974&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.7_Test_FixedBed1D_Performance_test_performance.html" target="_blank">0.218&sigma;</a>
+                    </td>
+                
+            </tr>
+            
+              </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+          
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingPython4">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePython4" aria-expanded="false" aria-controls="collapsePython4">
+              Python Version python-3.8
+            </button>
+          </h2>
+          <div id="collapsePython4" class="accordion-collapse collapse" aria-labelledby="headingPython4" data-bs-parent="#performanceAccordion">
+            <div class="accordion-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Problem\Measure</th>
+      
+            <th scope="col">build model</th>
+            
+            <th scope="col">unit consistency</th>
+            
+            <th scope="col">initialize</th>
+            
+            <th scope="col">final solve</th>
+            
+        </tr>
+        </thead>
+        <tbody>
+        
+            <tr>
+            <th scope="row">Test_HC_PR_Performance_test_performance</th>
+            
+                <td>
+                    <a href="idaes_performance_python-3.8_Test_HC_PR_Performance_test_performance.html" target="_blank">0.207&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.8_Test_HC_PR_Performance_test_performance.html" target="_blank">0.531&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.8_Test_HC_PR_Performance_test_performance.html" target="_blank">0.0264&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.8_Test_HC_PR_Performance_test_performance.html" target="_blank">0.549&sigma;</a>
+                    </td>
+                
+            </tr>
+            
+            <tr>
+            <th scope="row">TestCubicTransportPerformance_test_performance</th>
+            
+                <td>
+                    <a href="idaes_performance_python-3.8_TestCubicTransportPerformance_test_performance.html" target="_blank">0.78&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.8_TestCubicTransportPerformance_test_performance.html" target="_blank">0.657&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.8_TestCubicTransportPerformance_test_performance.html" target="_blank">0.445&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.8_TestCubicTransportPerformance_test_performance.html" target="_blank">0.344&sigma;</a>
+                    </td>
+                
+            </tr>
+            
+            <tr>
+            <th scope="row">Test_HX1D_Performance_test_performance</th>
+            
+                <td class="bg-danger">
+                    <a href="idaes_performance_python-3.8_Test_HX1D_Performance_test_performance.html" target="_blank">2.54&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.8_Test_HX1D_Performance_test_performance.html" target="_blank">0.384&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.8_Test_HX1D_Performance_test_performance.html" target="_blank">0.38&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.8_Test_HX1D_Performance_test_performance.html" target="_blank">0.855&sigma;</a>
+                    </td>
+                
+            </tr>
+            
+            <tr>
+            <th scope="row">Test_MEAColumn_Performance_test_performance</th>
+            
+                <td>
+                    <a href="idaes_performance_python-3.8_Test_MEAColumn_Performance_test_performance.html" target="_blank">0.624&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.8_Test_MEAColumn_Performance_test_performance.html" target="_blank">0.599&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.8_Test_MEAColumn_Performance_test_performance.html" target="_blank">0.0637&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.8_Test_MEAColumn_Performance_test_performance.html" target="_blank">0.294&sigma;</a>
+                    </td>
+                
+            </tr>
+            
+            <tr>
+            <th scope="row">Test_TrayColumn_Performance_test_performance</th>
+            
+                <td>
+                    <a href="idaes_performance_python-3.8_Test_TrayColumn_Performance_test_performance.html" target="_blank">0.549&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.8_Test_TrayColumn_Performance_test_performance.html" target="_blank">0.532&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.8_Test_TrayColumn_Performance_test_performance.html" target="_blank">0.453&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.8_Test_TrayColumn_Performance_test_performance.html" target="_blank">1.07&sigma;</a>
+                    </td>
+                
+            </tr>
+            
+            <tr>
+            <th scope="row">Test_FixedBed1D_Performance_test_performance</th>
+            
+                <td>
+                    <a href="idaes_performance_python-3.8_Test_FixedBed1D_Performance_test_performance.html" target="_blank">0.697&sigma;</a>
+                    </td>
+                
+                <td></td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.8_Test_FixedBed1D_Performance_test_performance.html" target="_blank">0.486&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.8_Test_FixedBed1D_Performance_test_performance.html" target="_blank">0.547&sigma;</a>
+                    </td>
+                
+            </tr>
+            
+              </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+          
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingPython5">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePython5" aria-expanded="false" aria-controls="collapsePython5">
+              Python Version python-3.9
+            </button>
+          </h2>
+          <div id="collapsePython5" class="accordion-collapse collapse" aria-labelledby="headingPython5" data-bs-parent="#performanceAccordion">
+            <div class="accordion-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Problem\Measure</th>
+      
+            <th scope="col">build model</th>
+            
+            <th scope="col">unit consistency</th>
+            
+            <th scope="col">initialize</th>
+            
+            <th scope="col">final solve</th>
+            
+        </tr>
+        </thead>
+        <tbody>
+        
+            <tr>
+            <th scope="row">Test_HC_PR_Performance_test_performance</th>
+            
+                <td>
+                    <a href="idaes_performance_python-3.9_Test_HC_PR_Performance_test_performance.html" target="_blank">0.229&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.9_Test_HC_PR_Performance_test_performance.html" target="_blank">0.323&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.9_Test_HC_PR_Performance_test_performance.html" target="_blank">0.0296&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.9_Test_HC_PR_Performance_test_performance.html" target="_blank">0.397&sigma;</a>
+                    </td>
+                
+            </tr>
+            
+            <tr>
+            <th scope="row">TestCubicTransportPerformance_test_performance</th>
+            
+                <td>
+                    <a href="idaes_performance_python-3.9_TestCubicTransportPerformance_test_performance.html" target="_blank">0.166&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.9_TestCubicTransportPerformance_test_performance.html" target="_blank">0.413&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.9_TestCubicTransportPerformance_test_performance.html" target="_blank">0.124&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.9_TestCubicTransportPerformance_test_performance.html" target="_blank">0.474&sigma;</a>
+                    </td>
+                
+            </tr>
+            
+            <tr>
+            <th scope="row">Test_HX1D_Performance_test_performance</th>
+            
+                <td>
+                    <a href="idaes_performance_python-3.9_Test_HX1D_Performance_test_performance.html" target="_blank">0.869&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.9_Test_HX1D_Performance_test_performance.html" target="_blank">0.191&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.9_Test_HX1D_Performance_test_performance.html" target="_blank">0.327&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.9_Test_HX1D_Performance_test_performance.html" target="_blank">1.04&sigma;</a>
+                    </td>
+                
+            </tr>
+            
+            <tr>
+            <th scope="row">Test_MEAColumn_Performance_test_performance</th>
+            
+                <td>
+                    <a href="idaes_performance_python-3.9_Test_MEAColumn_Performance_test_performance.html" target="_blank">0.181&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.9_Test_MEAColumn_Performance_test_performance.html" target="_blank">0.23&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.9_Test_MEAColumn_Performance_test_performance.html" target="_blank">0.0468&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.9_Test_MEAColumn_Performance_test_performance.html" target="_blank">0.556&sigma;</a>
+                    </td>
+                
+            </tr>
+            
+            <tr>
+            <th scope="row">Test_TrayColumn_Performance_test_performance</th>
+            
+                <td>
+                    <a href="idaes_performance_python-3.9_Test_TrayColumn_Performance_test_performance.html" target="_blank">0.0977&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.9_Test_TrayColumn_Performance_test_performance.html" target="_blank">0.345&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.9_Test_TrayColumn_Performance_test_performance.html" target="_blank">0.63&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.9_Test_TrayColumn_Performance_test_performance.html" target="_blank">0.359&sigma;</a>
+                    </td>
+                
+            </tr>
+            
+            <tr>
+            <th scope="row">Test_FixedBed1D_Performance_test_performance</th>
+            
+                <td>
+                    <a href="idaes_performance_python-3.9_Test_FixedBed1D_Performance_test_performance.html" target="_blank">0.248&sigma;</a>
+                    </td>
+                
+                <td></td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.9_Test_FixedBed1D_Performance_test_performance.html" target="_blank">0.0663&sigma;</a>
+                    </td>
+                
+                <td>
+                    <a href="idaes_performance_python-3.9_Test_FixedBed1D_Performance_test_performance.html" target="_blank">0.172&sigma;</a>
+                    </td>
+                
+            </tr>
+            
+              </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+          
+        </div>
+        </div>
+        <div class="container">
+          <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-9 d-flex align-items-center">
+              
+              <a href="https://idaes.org" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1" target="_blank">
+                <img src="https://raw.githubusercontent.com/IDAES/examples-pse/main/docs/_images/idaes-logo-100x100.png" style="width:42px;height:42px;">
+              </a>
+              <span class="mb-3 mb-md-0 text-muted">&copy; 2023 Institute for the Design of Advanced Energy Systems</span>
+        
+            </div>
+          </footer>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+      </body>
+    </html>
+    
